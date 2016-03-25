@@ -8,5 +8,14 @@
   "hubot-maps",
   "hubot-redis-brain",
   "hubot-rules",
-  "hubot-shipit"
+  "hubot-shipit",
+  "hubot-fliptable",
+  "hubot-victory",
+"hubot-thank-you",
+"hubot-sentimental",
+"hubot-business-cat",
+"hubots-darts",
+"hubot-seen",
+"hubot-tell",
+"hubot-motivate"
 ]
