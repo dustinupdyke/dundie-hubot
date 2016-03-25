@@ -10,8 +10,8 @@
 
 module.exports = (robot) ->
 
-   robot.hear /hugs/i, (res) ->
-     res.send "_sends hugs_"
+   robot.hear /timecard/i, (res) ->
+     res.send "_facepalms"
 
    robot.hear /hug/i, (res) ->
      res.send "_sends hugs_"
