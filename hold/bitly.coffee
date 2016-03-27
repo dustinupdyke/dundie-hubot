@@ -38,7 +38,7 @@ module.exports = (robot) ->
       .get() (err, res, body) ->
         parsedBody = JSON.parse body
         if parsedBody.status_code is not 200
-          msg.send "Lookup failed #{response.status_txt}"
+          msg.send "Lookup failed #{response.status_txt}" 
           return
 
         msg.send "#{m.short_url} is #{m.long_url}" for m in parsedBody.data.expand
